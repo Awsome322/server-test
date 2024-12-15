@@ -1,0 +1,6 @@
+enable: true
+title: "&cLobby Core"
+lines:
+  - 'Player Rank: &7%rank%'
+  - 'Player Prefix: %prefix%'
+  - 'Player name: &7%player%'

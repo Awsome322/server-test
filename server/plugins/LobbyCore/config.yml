@@ -1,0 +1,27 @@
+# %prefix% to get player's prefix not rank/group
+# %rank% to get player's rank/group
+spawn-on-join: false
+allow-build: false
+allow-break: false
+no-damage: true
+no-hunger: true
+mob-spawn: false
+plugins:
+  disable-command: true
+  message-instead-of-plugins: '&aPlugins: &fLobbyCore'
+messages:
+  announce-join-message: true
+  announce-leave-message: true
+  join-message: '&a%player% Has joined'
+  leave-message: '&c%player% Has left'
+  clear-chat: '&aChat has been cleared by %player%'
+  mute-chat: '&cThe chat has been muted by %player%'
+  unmute-chat: '&aThe chat has been unmuted by %player%'
+  spawn-set: '&aSpawn has been set'
+  enable-buildmode: '&aBuild Mode has been enabled'
+  disable-buildmode: '&aBuild Mode has been disabled'
+  no-permission: '&cYou dont have permission to execute this command!'
+weather:
+  no-rain: true
+  no-storms: true
+  always-day: true

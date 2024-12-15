@@ -1,0 +1,21 @@
+# The slot must be 0 - 8
+# The size must be multiples of 9 (9,  18,  27, 36, 45, 54)
+# This is the Game Selector info,  not the items inside it
+enable: true
+slot: 0
+size: 9
+material: COMPASS
+name: "&c&lGame Selector"
+lore:
+  - "&c&lRight Click to open the Game Selector"
+# This is the items inside of the
+# you can add more items by changing the id number and the slot
+# The slot must be 0 - 53 in order what you wrote at the Game Selector info
+items:
+  1:
+    item: DIAMOND_SWORD
+    slot: 1
+    name: "&cKitPvP"
+    server: "KitPvP"
+    lore:
+      - "&cKitPvP"
